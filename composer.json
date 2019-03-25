@@ -1,0 +1,21 @@
+{
+    "name": "edixon/login-php-puro",
+    "description": "Plantilla para login basico de usuarios usando php puro",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edixon Alberto",
+            "email": "edixonalbertto@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "vlucas/phpdotenv": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\": "modules/"
+        }
+    }
+}

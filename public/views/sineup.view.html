@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SineUp</title>
+</head>
+
+<body>
+
+    <div class="content">
+        <h1 class="title">SineUp</h1>
+        <hr />
+
+        <form action="<?php echo 'http://localhost:90/login-php-puro/public/php/sineup.php'; ?>" method=POST
+            class="form" name="login">
+            <div class="form-group">
+                <input type="text" class="username" name="username" placeholder="Username" /><br />
+
+                <input type="password" class="password" name="password" placeholder="Password" /><br />
+                <input type="password" class="password-repit" name="password_repit"
+                    placeholder="Password Repit" /><br />
+
+                <input type="submit" value="send" />
+            </div>
+        </form>
+
+        <p class="text-login">¿Ya tienes cuenta?</p>
+        <a href="login.php">Start session</a>
+
+    </div>
+
+</body>
+
+</html>
